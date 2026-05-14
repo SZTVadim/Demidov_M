@@ -13,9 +13,10 @@
 # 10) выведите через print() на какую ячейку памяти ссылается переменная Имя
 # 11) Вывведите какой тип данных у перменной Город
 # 11) Используйте полученные знания и сделайте Pull Requests с выполненным заданием
-# from os import name
+
 
 name = 'Maxim'
 city = 'Moscow'
+print(name, city)
 print(id(name))
 print(type(city))
